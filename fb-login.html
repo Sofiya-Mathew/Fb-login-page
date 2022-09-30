@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faebook login</title>
+    <link rel="stylesheet" href="./fb-login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="text" href="fb-login.html">Facebook</a>
+            </div>
+            <div class="login">
+                <table class="login-form">
+                    <tr>
+                        <td>Email or Mobile</td>
+                        <td>Password</td>
+                    </tr>
+                    <tr>
+                        <td><input type="email"></td>
+                        <td><input type="password"></td>
+                        <td><input class="button" type="submit" value="Login"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>forgotten account?</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left-content">
+                <p class="caption">Facebook helps you connect and share with the<br> people in your life</p>
+                <img class="img" src="./fb.jpg" alt="">
+            </div>
+            <div class="right-content">
+                <h1 class="create">Create an account</h1>
+                <p>it's quick and easy.</p>
+                <form action="" id="validate-form">
+                    <tr>
+                        <td><input name="fname" type="text" placeholder="first name"></td>
+                        <td><input name="sname" type="text" placeholder="surname"></td>
+                    </tr>
+                    <label for=""></label>
+                    <input class="mob" type="text" placeholder="mobile number or email address" name="emailAddress">
+                    <input class="mob" type="text" placeholder="New Password" name="password"><br>
+                    <div class="drop">
+                        <label for="">Birthday</label><br>
+                        <select name="day" id="">
+                            <option value="">Day</option>
+                            <option value="">1</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Jan</option>
+                            <option value="">Feb</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">1998</option>
+                            <option value="">1999</option>
+                        </select>
+                    </div><br>
+                    <div class="gender">
+                        <label for="gender">Gender</label> <br>
+                        <input type="radio" value="Male" name="gender_select">
+                        <label for="">Male</label>
+                        <input type="radio" value="Female" name="gender_select">
+                        <label for="">Female</label>
+                        <input type="radio" value="custom" name="gender_select">
+                        <label for="">Custom</label>
+
+                    </div><br>
+                    <button class="signup">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+        <script src="./script.js"></script>
+</body>
+
+</html>

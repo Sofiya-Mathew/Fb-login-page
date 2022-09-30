@@ -1,0 +1,85 @@
+.header{
+    width: 100%;
+    height: 112px;
+    background-color: #4270cb;
+}
+body{
+    margin: 0;
+}
+.logo{
+    width: 50%;
+    padding-top: 40px;
+    float: left;
+}
+.login{
+    width: 50%;
+    float: left;
+    padding-top: 24px;
+}
+.text{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 230px; 
+    text-decoration: none;
+    color: #fff;
+}
+.login-form{
+color: #fff;
+margin-left: 213px;
+font-size: 15px;
+}
+.button{
+    background: #4267b2;
+    color: #fff;
+    border-color: #3567cc;
+    cursor: pointer;
+}
+.button:hover{
+    background: rgb(43, 60, 128);
+}
+.left-content{
+    width: 50%;
+    float: left;
+    padding-top: 32px;
+    padding-left: 209px;
+}
+.right-content{
+    width: 30%;
+    float: left;
+    padding-top: 50px;
+}
+.content{
+    background: linear-gradient(white,#bac4e4);
+    width: 100%;
+    height: 600px;
+}
+.img{
+    width: 75%;
+    height: 350px;
+}
+.caption{
+    font-size: 20px;
+    font-weight: bold;
+}
+.create{
+    font-weight: bold;
+}
+.mob{
+    width: 338px;
+    margin-top: 11px
+}
+.drop{
+    margin-top: 20px;
+}
+.signup{
+background-color: darkgreen;
+border-radius: 5px;
+width: 150px;
+height: 27px;
+color: #fff;
+border-color: darkgreen;
+cursor: pointer;
+}
+.signup:hover{
+    background: rgb(35, 143, 35);
+}
